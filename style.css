@@ -3,6 +3,34 @@ a{
     color: 0000ff;
 }
 
+.gallery div img {
+  width: 75px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gallery{
+    max-width: 1200px;
+  width: 100%;
+  margin-top: 40px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  }
+  .gallery div img {
+    width: 250px;
+  }
+  .slick-next {
+  right: -10px !important;
+  }
+  .slick-prev {
+    left: -25px !important;
+  }
+  .slick-dots {
+  left: -25px;
+  position: relative !important;
+}
+
 ul{
     list-style-position: inside; 
 }
@@ -27,6 +55,7 @@ main{
     font-size: 20px;
 }
 
+}
 .container {
     max-width: 960px;
     margin: 0 auto;
